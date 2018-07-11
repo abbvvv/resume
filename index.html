@@ -1,136 +1,414 @@
-﻿<!doctype html>
-<html>
+﻿<!DOCTYPE html>
+<html lang="en">
 <head>
-<meta charset="utf-8">
-<title>HK Disney</title>
-<link rel="stylesheet" type="text/css" href="static/css/style.css">
+  <meta charset="UTF-8">
+  <title> 个人简历</title>
+  <style type="text/css">
+
+    *{
+      background: #515151;
+    }
+    .cir{
+      float: left;
+    }
+
+    #circle1{
+        background-color:#FFC125;  
+        width: 30px;  
+        height: 30px;  
+        margin: 0px 0 0 0px;  
+        border-radius: 50%;  
+      }  
+      #circle2 {  
+        background-color:#515151;  
+        width: 24px;  
+        height: 24px;  
+        margin: -27px 0 0 3px;  
+        border-radius: 50%;  
+      }
+      #circle3 {  
+        background-color:#FFC125;  
+        width: 20px;  
+        height: 20px;  
+        margin: -22px 0 0 5px;  
+        border-radius: 50%;  
+      }
+      /*#x{
+        margin-left: 15px;
+        margin-top: 5px;
+        width: 0px;
+        height: 40px;
+      border: 1px solid #FFC125;
+      }
+      #x2{
+        margin-left: 15px;
+        margin-top: 3px;
+        width: 0px;
+        height: 65px;
+      border: 1px solid #FFC125;
+      }*/
+
+    #rcircle1{
+        background-color:#FF4040;  
+        width: 30px;  
+        height: 30px;  
+        margin: 0px 0 0 0px;  
+        border-radius: 50%;  
+      }  
+      #rcircle2 {  
+        background-color:#515151;  
+        width: 24px;  
+        height: 24px;  
+        margin: -27px 0 0 3px;  
+        border-radius: 50%;  
+      }
+      #rcircle3 {  
+        background-color:#FF4040;  
+        width: 20px;  
+        height: 20px;  
+        margin: -22px 0 0 5px;  
+        border-radius: 50%;  
+      }
+      /*#rx{
+        margin-left: 15px;
+        margin-top: 5px;
+        width: 0px;
+        height: 65px;
+      border: 1px solid #FF4040;
+      }
+      #rx2{
+        margin-left: 15px;
+        margin-top: 3px;
+        width: 0px;
+        height: 90px;
+      border: 1px solid #FF4040;
+      }*/
+
+    #bcircle1{
+        background-color:#6495ED;  
+        width: 30px;  
+        height: 30px;  
+        margin: 0px 0 0 0px;  
+        border-radius: 50%;  
+      } 
+      #bcircle2 {  
+        background-color:#515151;  
+        width: 24px;  
+        height: 24px;  
+        margin: -27px 0 0 3px;  
+        border-radius: 50%;  
+      }
+      #bcircle3 {  
+        background-color:#6495ED;  
+        width: 20px;  
+        height: 20px;  
+        margin: -22px 0 0 5px;  
+        border-radius: 50%;  
+      }
+    
+    .b1{
+      font-size: 50px;
+      color: #ffffff;
+    }
+    .b2{
+      font-size: 30px;
+      color: #FFC125;
+    }
+    .b3{
+      font-size: 30px;
+      color: #FF4040;
+    }
+    .b4{
+      font-size: 30px;
+      color: #6495ED;
+    }
+    p{
+      color: #ffffff;
+    }
+    .title{
+      /*text-align: center;*/
+      border: 1px dashed #fff;
+      margin-left: 18%;
+      width: 65%;
+      height: 200px;
+    }
+    .left1{
+      width: 30%;
+      height: 200px;
+      float: left;
+      border: 1px dashed #fff;
+    }
+    .left1 img{
+      /*margin-left: 30%;*/
+      margin-top: 2%;
+      width: 150px;
+      height: 180px;
+      border: 3px solid #fff;
+      border-radius: 100%;
+    }
+    .right1{
+      overflow:hidden;/*自动填充剩余div宽度*/
+      height: 200px;
+      border: 1px dashed #fff;
+      text-align: center;
+    }
+    .right1 .text{
+      margin-left: 35%;
+      text-align: left;
+    }
+
+
+    .content{
+      border: 1px dashed #fff;
+      margin-left: 18%;
+      width: 65%;
+      height: 550px;
+    }
+    .left2{
+      float: left;
+      width: 70%;
+      height: 550px;
+      border: 1px dashed #fff;
+      text-align: center;
+    }
+    .left2 .text{
+      width: 85%;
+      margin-left: 10%;
+      text-align: left;
+      font-size: 22px;
+    }
+    .left2 .text p{
+      margin-left: 8%;
+    }
+
+    .right2{
+      overflow:hidden;/*自动填充剩余div宽度*/
+      height: 550px;
+      border: 1px dashed #fff;
+      text-align: center;
+    }
+    .right2 .text{
+      width: 80%;
+      margin-left: 20%;
+      text-align: left;
+      font-size: 22px;
+    }
+
+
+    .content3{
+      border: 1px dashed #fff;
+      margin-left: 18%;
+      width: 65%;
+      height: 730px;
+    }
+    .left3{
+      float: left;
+      width: 70%;
+      height: 730px;
+      border: 1px dashed #fff;
+      text-align: center;
+    }
+    .left3 .text{
+      width: 85%;
+      margin-left: 10%;
+      text-align: left;
+      font-size: 22px;
+    }
+    .left3 .text p{
+      margin-left: 8%;
+    }
+
+    .right3{
+      overflow:hidden;/*自动填充剩余div宽度*/
+      height: 730px;
+      border: 1px dashed #fff;
+      text-align: center;
+    }
+    .right3 .text{
+      width: 80%;
+      margin-left: 20%;
+      text-align: left;
+      font-size: 22px;
+    }
+
+    .percent{
+      height: 0px;
+      width: 80%;
+      border: 3px solid #000;
+    }
+    .percent .num{
+      margin: -3px 0 0 -3px;
+      height: 0px;
+      border: 3px solid #CDC9C9;
+    }
+
+
+    .footer{
+      border: 1px dashed #fff;
+      margin-left: 18%;
+      width: 65%;
+      height: 200px;
+    }
+    .left4{
+      float: left;
+      width: 70%;
+      height: 200px;
+      border: 1px dashed #fff;
+      text-align: center;
+    }
+    .left4 .text{
+      width: 85%;
+      margin-left: 10%;
+      text-align: left;
+      font-size: 22px;
+    }
+    .left4 .text p{
+      margin-left: 8%;
+    }
+
+    .right4{
+      overflow:hidden;/*自动填充剩余div宽度*/
+      height: 200px;
+      border: 1px dashed #fff;
+      text-align: center;
+    }
+    .right4 .text{
+      width: 80%;
+      margin-left: 20%;
+      text-align: left;
+      font-size: 22px;
+    }
+  </style>
+
+  <script type="text/javascript">
+        function browserRedirect() {
+          var ua = navigator.userAgent;
+      var ipad = ua.match(/(iPad).*OS\s([\d_]+)/),
+      isIphone =!ipad && ua.match(/(iPhone\sOS)\s([\d_]+)/),
+      isAndroid = ua.match(/(Android)\s+([\d.]+)/);
+
+            var sUserAgent = navigator.userAgent.toLowerCase();
+            var bIsIpad = sUserAgent.match(/ipad/i) == "ipad";
+            var bIsIphoneOs = sUserAgent.match(/iphone os/i) == "iphone os";
+            var bIsMidp = sUserAgent.match(/midp/i) == "midp";
+            var bIsUc7 = sUserAgent.match(/rv:1.2.3.4/i) == "rv:1.2.3.4";
+            var bIsUc = sUserAgent.match(/ucweb/i) == "ucweb";
+            var bIsAndroid = sUserAgent.match(/android/i) == "android";
+            var bIsCE = sUserAgent.match(/windows ce/i) == "windows ce";
+            var bIsWM = sUserAgent.match(/windows mobile/i) == "windows mobile";
+            if (bIsIpad || bIsIphoneOs || bIsMidp || bIsUc7 || bIsUc || bIsAndroid || bIsCE || bIsWM || isIphone || isAndroid) {
+                //跳转移动端页面
+                window.location.href="mindex.html";
+            } else {
+            }
+        }
+        browserRedirect(); 
+    </script>
 </head>
-
 <body>
-
-<header>
-<div class="head">
-  <div class="posi">
-     <div id="logo"><a href="#"><img src="static/image/logo1.png" width="216" height="60"></a></div>
+  <div class="title">
+    <div class="left1" align="center">
+      <img src="./image.jpg">
+    </div>
+    <div class="right1" align="center">
+      <br>
+      <b class="b1">个人简历</b>
+      <div class="text">
+        <p>期望岗位：php开发工程师</p>
+        <p>目标城市：广州</p>
+        <p>目标薪资：3000-4000 元/月</p>
+      </div>
+    </div>
   </div>
-</div>
-</header>
 
+  <div class="content">
+    <div class="left2">
+      <br>
+      <b class="b2">专业能力</b>
+      <div class="text">
+        <div class="cir"><div id="circle1"></div><div id="circle2"></div><div id="circle3"></div><div id="x"></div></div>
+        
+        <p>熟悉php+mysql开发，有过thinkphp框架的开发经验，用原生php项目进行二次开发的商城管理系统。熟悉java 、html5+css 、php等语言。</p>
 
-<nav>
-    <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="character.html">Classical character</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="HK Disney.html">HK Disney</a></li>
-    </ul>
-</nav>
+        <div class="cir"><div id="circle1"></div><div id="circle2"></div><div id="x2"></div></div>
 
-<div id="container">
-     <aside class="sidebar">
-        <div class="sidebox view">
-            <h2>activity</h2>
-            <div class="tag">
-               <a href="#">美国小镇</a>
-               <a href="#">穿越太空山</a>
-               <a href="#">米奇经典音乐剧</a>
-               <a href="#">巴斯光年</a>
-               <a href="#">狮子王庆典</a>
-               <a href="#">米奇幻想曲</a>
-               <a href="#">旋转木马</a>
-               <a href="#">小飞象</a>
-               <a href="#">梦想花园</a>
-               <a href="#">烟花表演</a>
-               <a href="#">巡街表演</a>
-               <a href="#">疯狂过山车</a>
-            </div>
-        </div>
-        <div class="sidebox disney">
-            <h2>other disney</h2>
-            <div class="web">
-              <ul>
-                 <li><a href="https://disneyworld.disney.go.com/" target="_blank">Florida Disney</a></li>
-                 <li><a href="http://disney.fr/" target="_blank">Pairs Disney</a></li>
-                 <li><a href="http://www.tokyodisneyresort.jp/top.html" target="_blank">Tokyo Disney</a></li>
-                 <li><a href="http://disney.com.hk/" target="_blank">HK Disney</a></li>
-              </ul>
-            </div>
-        </div>
-        <div class="problem">
-            <h2 style="font-size:18px; font-weight:bold;">更多帮助</h2>
-                <ul>
-                   <li><a href="#">常见问题</a></li>
-                   <li><a href="#">条款及细规</a></li>
-                   <li><a href="#">出发前提示</a></li>
-                   <li><a href="#">乐园便利服务</a></li>
-                   <li><a href="#">前往迪士尼乐园度假区</a></li>
-                </ul>
-        </div>
-     </aside>
-        <div class="list">
-           <div class="one">
-               <section>
-                  <h2>預訂及門票</h2>
-                  <hr/>
-                  <div class="left">
-                     <h1>香港迪士尼樂園訂房中心熱線</h1>
-                     <a href="#">+852 1-830-830</a>
-                  </div>
-                  <div class="center">
-                     <h1>網上訂房支援</h1>
-                     <a href="#">+852 1-830-830</a>
-                  </div>
-                  <div class="right">
-                     <h1>餐廳預訂</h1>
-                       <ul>
-                          <li><a href="#">香港迪士尼樂園 +852 3550-3388</a></li>
-                          <li><a href="#">香港迪士尼樂園酒店 +852 3510-6000</a></li>
-                          <li><a href="#">迪士尼好萊塢酒店 +852 3510-5000</a></li>
-                       </ul>
-                  </div>
-               </section>
-           </div>
-           <div class="one">
-               <section>
-                  <h2>樂園及酒店資訊</h2>
-                  <hr/>
-                  <div class="left">
-                     <h1>香港迪士尼樂園</h1>
-                     <a href="#">電話 +852 3550-3388</a>
-                  </div>
-                  <div class="center">
-                     <h1>香港迪士尼樂園酒店</h1>
-                       <ul>
-                          <li><a href="#">電話 +852 3510-6000</a></li>
-                          <li><a href="#">傳真 +852 3510-6333</a></li>
-                       </ul>
-                  </div>
-                  <div class="right">
-                     <h1>迪士尼好萊塢酒店</h1>
-                       <ul>
-                          <li><a href="#">電話 +852 3510-5000</a></li>
-                          <li><a href="#">傳真 +852 3510-5333</a></li>
-                       </ul>
-                  </div>
-                  
-               </section>
-           </div>
-           <div class="two">
-               <section>
-                  <h2><img src="static/image/000.jpg" height="100px" width="140px">致電 香港迪士尼樂園</h2>
-                  <hr/>
-                  <p>我們樂意為你提供協助。如你有任何問題或想以電話預訂，請隨時致電我們。你亦可以電郵聯絡我們。此外，求助中心尋求你所需的答案。</p>
-                  <p>未滿18歲的賓客致電前必須獲父母或監護人許可。</p>
-               </section>
-           </div>
+        <p>有过微信小程序的开发经验，开发过豆瓣电影，路程记录器等。</p>
 
-        </div>
-</div>        
+        <div class="cir"><div id="circle1"></div><div id="circle2"></div></div>
 
+        <p>自我评价 : 有较强的自学能力，对新技术有较高的学习欲望。通过每次的实践项目吸取经验。</p>
+      </div>
+    </div>
+    <div class="right2">
+      <br>
+      <b class="b2">联系方式</b>
+      <div class="text">
+        <p>姓名： 许思航</p>
+        <p>邮箱： 812662206@qq.com</p>
+        <p>TEL : 13725487621</p>
+        <p>QQ  : 812662206</p>
+      </div>
+    </div>
+  </div>
 
-<footer id="footer">
-   <div class="bottom">Copyright© Disney, All Rights Reserved 许思航所有</div>
-</footer>
+  <div class="content3">
+    <div class="left3">
+      <br>
+      <b class="b3">项目经历</b>
+      <div class="text">
+        <div class="cir"><div id="rcircle1"></div><div id="rcircle2"></div><div id="rcircle3"></div><div id="rx"></div></div>
 
+        <p><b>商城后台管理：</b></p>
+
+        <div class="cir"><div id="rcircle1"></div><div id="rcircle2"></div><div id="rx2"></div></div>
+
+        <p><b>项目简介：</b><br>商城后台管理员通过登录管理员账号对商品进行操作，用mvc设计模式实现管理员对商品的增删改查功能。</p>
+
+        <div class="cir"><div id="rcircle1"></div><div id="rcircle2"></div></div>
+
+        <p><b>项目功能介绍：</b><br>
+该项目中的功能分为：<br>
+1、管理员登录<br>
+2、验证码的生成<br>
+3、显示商品列表<br>
+4、添加需要的商品及各个属性<br>
+5、修改商品的名称数量创建时间等<br>
+6、删除整个商品及其信息<br>
+</p>
+      </div>
+    </div>
+    <div class="right3">
+      <br>
+      <b class="b3">个人技能</b>
+      <div class="text">
+        <p>php+mysql</p>
+        <div class="percent"><div class="num" style="width: 70%"></div></div>
+        <p>html+css</p>
+        <div class="percent"><div class="num" style="width: 60%"></div></div>
+        <p>微信小程序</p>
+        <div class="percent"><div class="num" style="width: 50%"></div></div>
+        <p>javascript</p>
+        <div class="percent"><div class="num" style="width: 40%"></div></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <div class="left4">
+      <br>
+      <b class="b4">教育背景</b>
+      <div class="text">
+        <div class="cir"><div id="bcircle1"></div><div id="bcircle2"></div><div id="bcircle3"></div></div>
+        <p>广东机电职业技术学院&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;专业：软件技术</p>
+      </div>
+    </div>
+    <div class="right4">
+      <br>
+      <b class="b4">技能证书</b>
+      <div class="text">
+        <p>java技术水平证书</p>
+      </div>
+    </div>
+  </div>
 </body>
 </html>

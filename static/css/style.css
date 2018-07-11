@@ -4,12 +4,7 @@ body,h1,ul,h2{background:#E7E9E9; color:#000; font: 14px "微软雅黑"; margin:
 header {height: 90px;width:100%; background-color:#201A1A;}
 header #logo{margin-top:10px;}
 .head .posi{ float:left; margin-left:470px; margin-top:10px;}
-nav {width:1880.5px;height: 37px;margin-bottom: 50px;padding: 0px 10px;background-color:#392E2B;border:1px solid #423531;}
-nav ul { width:960px; list-style: none;margin: 0 auto;padding: 0;}
-nav ul li {position: relative;float: left;padding: 6px 5px 0px 5px;}
 
-nav ul li a {font-size: 13px; line-height:14px;color: #C9B5AF;display: block;padding: 6px 10px 6px 10px;margin-bottom: 5px;z-index: 6;position: relative; text-decoration:none;}
-nav ul li:hover a{color:#ffffff;}
 #container{ width:1263px; height:1080px; margin:30px auto;}
 #container .sidebar{width:340px; height:1080px; float:right;}
 #container .sidebox{ border:1px solid #eee; margin:0 0 10px 0; text-align:center;}
