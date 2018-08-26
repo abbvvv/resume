@@ -1,0 +1,57 @@
+@charset "utf-8";
+/* CSS Document */
+body,h1,ul,h2{background:#E7E9E9; color:#000; font: 14px "微软雅黑"; margin:0; padding:0;}
+header {height: 90px;width:100%; background-color:#201A1A;}
+header #logo{margin-top:10px;}
+.head .posi{ float:left; margin-left:470px; margin-top:10px;}
+nav {width:1880.5px;height: 37px;margin-bottom: 50px;padding: 0px 10px;background-color:#392E2B;border:1px solid #423531;}
+nav ul { width:960px; list-style: none;margin: 0 auto;padding: 0;}
+nav ul li {position: relative;float: left;padding: 6px 5px 0px 5px}
+
+nav ul li a {font-size: 13px; line-height:14px;color: #C9B5AF;display: block;padding: 6px 10px 6px 10px;margin-bottom: 5px;z-index: 6;position: relative; text-decoration:none;}
+nav ul li:hover a{color:#ffffff;}
+#container{ width:1263px; height:1400px; margin:30px auto;}
+#container .sidebar{width:340px; height:1400px; float:right;}
+#container .sidebox{ border:1px solid #eee; margin:0 0 10px 0; text-align:center;}
+#container .sidebox h2{font-size:20px; font-weight:normal; letter-spacing:1px; text-indent:8px; height:40px; line-height:40px; background-color:#3f94ff; text-align:left;}
+#container .tag{padding:2px 0;}
+#container .tag a{background-color:#D0D5D2; margin:2px 0; width:100px; height:35px; line-height:35px; display:inline-block; color:#000; text-decoration:none;}
+#container .tag a:hover{background-color:#458b00; color:#fff;}
+#container .web{padding:2px 0;}
+#container .web ul{ list-style-type:none;}
+#container .web a{background-color:#D0D5D2; margin:2px 0; width:336px; height:35px; line-height:35px; display:inline-block; color:#000; text-decoration:none;}
+#container .web a:hover{background-color:#458b00; color:#fff;}
+#container .list{width:900px; height:800px; float:left;}
+#container .problem{padding:2px 0; margin:53px; text-align:center;}
+#container .problem ul{ list-style-type:none;}
+#container .problem a{margin:2px 0; width:230px; height:35px; line-height:35px; display:inline-block; color:#000; text-decoration:none;}
+#container .problem a:hover{color:#3f94ff;}
+#container .center{text-align:center;}
+#container .center h2{ font-size:45px; letter-spacing:2px; color:#000; margin:10px 0; font-weight:bold;}
+#container .center p{color:#000 margin:10px 0; font-size:24px;}
+#container .list figcaption{text-align:left; line-height:1.9; letter-spacing:0.1px;; font-size:18px; text-align:justify;}
+
+
+
+#footer .bottom{height:80px; background-color:#000; line-height:80px; text-align:center; color:#777; border-top:1px solid #444;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

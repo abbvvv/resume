@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Examples</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<link href="register.css" rel="stylesheet" style="text/css">
+<script type="text/javascript" src="jquery-1.8.3.js"></script>
+<script type="text/javascript" src="register.js"></script>
+
+
+</head>
+<body style="background: url(images/bg.jpg);height: 100%;width: 100%;">
+<div id="div1">
+<h2 style="text-align: center;">请填写正确的信息</h2>
+	<form action="index.html" name="form1">
+	<table>
+		<tr><td class="right">昵称：</td><td class="left"><input type="text" id="username" name="username" onblur="checkName()"></td><td><span id="ts"></span></td></tr>
+	    <tr><td class="right">学号：</td><td class="left"><input type="text" id="number" name="number" onblur="checkNumber()"></td><td><span id="ts1"></span></td></tr>
+	    <tr><td class="right">出生年月：</td><td class="left"><input type="text" id="birth" name="birth" onblur="checkBirth()"></td><td><span id="ts2"></span></td></tr>
+	    <tr><td class="right">密码：</td><td class="left"><input type="password" id="password" name="password" onblur="checkPassword()"></td><td><span id="ts3"></span></td></tr>
+	    <tr><td class="right">确认密码：</td><td class="left"><input type="password" id="affirmpwd" name="affirmpwd" onblur="affirmPassword()"></td><td><span id="ts4"></span></td></tr>
+	    <tr><td class="right">邮箱地址：</td><td class="left"><input type="text" id="email" name="email" onblur="checkEmail()"></td><td><span id="ts5"></span></td></tr>
+	    <tr><td class="right">电话号码：</td><td class="left"><input type="text" id="phone" name="phone" onblur="checkPhone()"></td><td><span id="ts6"></span></td></tr>
+	    
+		<tr><td><input name="confirm"  type="checkbox" onclick="agree();" id="cb"/>我认真阅读并接受以上协议。</td></tr>
+		<tr><td><input type="submit"  name="submit1" value="提交" disabled="disabled" id="tj" onclick="register()" /></td><td><input type="reset" value="重置"/></td></tr>
+	</table>
+	</form>
+</div>	
+</body>
+</html>

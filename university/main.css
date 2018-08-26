@@ -1,0 +1,248 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2017-12-10 16:03:12
+ * @version $Id$
+ */
+/**{
+	margin:0px;
+	padding:0px;
+}*/
+body{
+	text-align: center;
+	margin: 0px;
+	padding:0px;
+}
+#div1{
+	height: 1500px;
+	width: 1200px;
+	top:200px;
+	margin: 50px auto;
+	border: solid 0px red;
+	background-color: #ffffff;
+}
+h2{
+	font-size: 46px;
+
+	padding: 40px;
+}
+.tip{
+	height: 0px;
+	width: 0px;
+	font-size: 20px;
+	position: absolute;
+	left: 0px;
+	top:280px;
+	
+}
+.shenglue{
+	width: 0px;
+	height: 130px;
+	left: 650px;
+	top: 670px;
+	position: absolute;
+	background: url(images/shenglue.jpg) no-repeat;
+}
+#div2{
+	border: solid 0px blue;
+	top:100px;
+	position: relative;
+	padding: 15px;
+
+}
+
+a{
+	text-decoration: none;	
+}
+#div3 ul li{
+	letter-spacing: 5px;
+	text-decoration: none;
+	display: block;
+	height: 40px;
+	width: 130px;
+	background: white;
+	line-height: 40px;
+	left: 90px;
+	top: 90px;
+	font-size: 18px;
+	color: black;
+	filter:Alpha(opacity=50);
+	opacity: 0.5;
+
+	position: absolute;
+}
+#div3 ul li a:hover{
+	color: #ffaa33;
+	
+}
+#div3{
+	
+	text-align:center;
+		
+	left: 20px;
+	height: 220px;
+	width: 320px;
+	position: relative;
+	border: solid 0px red;
+}
+
+#div4{
+	position: absolute;
+	left: 400px;
+	top: 15px;
+	border: solid 0px red;
+	height: 220px;
+	width: 320px;
+}
+#div4 ul li{
+	letter-spacing: 5px;
+	text-decoration: none;
+	display: block;
+	height: 40px;
+	width: 130px;
+	background: white;
+	line-height: 40px;
+	left: 90px;
+	top: 90px;
+	font-size: 18px;
+	color: black;
+	filter:Alpha(opacity=50);
+	opacity: 0.5;
+	position: absolute;
+}
+#div4 ul li a:hover{
+	color: #ffaa33;
+	
+}
+#div5{
+	position: absolute;
+
+	left: 765px;
+	top: 15px;
+	border: solid 0px red;
+	height: 220px;
+	width: 320px;
+}
+#div5 ul li{
+	letter-spacing: 5px;
+	text-decoration: none;
+	display: block;
+	height: 40px;
+	width: 130px;
+	background: white;
+	line-height: 40px;
+	left: 90px;
+	top: 90px;
+	font-size: 18px;
+	color: black;
+	filter:Alpha(opacity=50);
+	opacity: 0.5;
+	position: absolute;
+}
+#div5 ul li a:hover{
+	color: #ffaa33;
+	
+}
+p{
+	font-size: 20px;
+	top:450px;
+	position: absolute;
+}
+#div2 span{
+	width: 320px;
+	display: block;
+	margin-top: 250px;
+	float: right;
+	font-size: 16px;
+	color: #444444;
+	letter-spacing: 4px;
+	text-align: left;
+}
+
+#div6{
+		width: 300px;
+		height: 360px;
+		border: solid 0px red;
+		margin: 0px auto;
+		position: absolute;
+		overflow: hidden;
+		top:500px;
+		left: 370px;
+		
+}
+#div7{
+		width: 1350px;
+		height: 300px;
+		border: solid 0px blue;
+		
+}
+#div7 ul li{
+		list-style: none;
+		float: left;
+		left: 0px;
+		top: 0px;
+}
+#div7 ul li img{
+		width: 260px;
+		height: 250px;
+		padding-right: 50px;
+		
+}
+#div8 ul li{
+		list-style: none;
+		float: left;
+		
+		margin-left: 20px;
+		left: 0px;
+		top: 0px;
+
+}
+#div8 ul li img{
+		width: 20px;
+		height: 20px;
+		/*border-radius:50px;
+		border:solid black 2px;*/
+}
+#div8{
+		position: absolute;
+		left: 40px;
+		bottom: 20px;
+}
+#div8 ul li img:hover{
+		width: 20px;
+		height: 20px;
+		border-radius:50px;
+		border:solid black 1px;
+}
+
+/*ul#pics li {
+	background: none repeat scroll 0 0 #FFFFFF;
+	box-shadow: 1px 1px 1px #999999;
+	display: inline-block;
+	width: 153px;
+	height:157px;
+ -webkit-transition: all .2s ease-in-out;
+ -moz-transition: all .2s ease-in-out;
+ -o-transition: all .2s ease-in-out;
+ -ms-transition: all .2s ease-in-out;
+ transition: all .2s ease-in-out;
+}
+ul#pics li img {
+	width: 220px;
+	height:180px;
+	display: block;
+}
+ul#pics li:hover {
+	-moz-transform: scale(1.1) rotate(0deg);
+	-webkit-transform: scale(1.1) rotate(0deg);
+	-o-transform: scale(1.1) rotate(0deg);
+	-ms-transform: scale(1.1) rotate(0deg);
+	transform: scale(1.1) rotate(0deg);
+}*/
+/*.single_photo {
+	
+	border: solid 2px yellow;
+	margin-top:65px;
+}	
+*/
